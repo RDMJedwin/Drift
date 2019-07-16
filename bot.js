@@ -6,6 +6,13 @@ var prefix = '*';
 var opus = require('opusscript');
 const ytdl = require('ytdl-core');
 
+const aws = require('aws-sdk');
+
+let TOKEN = new aws.TOKEN({
+	accessKeyId: process.env.TOKEN
+	secretAccessKey: process.env.TOKEN
+});
+
 const client = new Discord.Client();
 
 const queue = new Map();
@@ -425,6 +432,6 @@ function play(guild, song) {
   
 /*});*/
 	
-	
+
 	
 bot.login(TOKEN);
