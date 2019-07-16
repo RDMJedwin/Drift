@@ -427,4 +427,4 @@ function play(guild, song) {
 	
 	
 	
-bot.login('NTcxNTI1NjYyMTE3MTk5ODgy.XMTleA.Omm97cGlyXAKqn7D20snva9k-Ek');
+bot.login(TOKEN);
